@@ -40,7 +40,7 @@ module.exports = {
 
         await interaction.reply({
             embeds: [new EmbedBuilder()
-                .setColor(process.env.COLOR)
+                .setColor('#5488a8')
                 .setTitle('__Timetables__')
                 .setDescription(`\`<t:${time}:f>\` <t:${time}:f>
                 \`<t:${time}:F>\` <t:${time}:F>

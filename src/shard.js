@@ -2,7 +2,7 @@ require("dotenv").config();
 const { ShardingManager } = require('discord.js');
 const manager = new ShardingManager('./src/bot.js', { token: process.env.TOKEN, respawn: true, mode: 'process', execArgv: ['--trace-warnings'], totalShards: 'auto' });
 
-console.log('Starting...');
+managerLog('Starting...');
 
 function managerLog(data) {
     const time = () => {
