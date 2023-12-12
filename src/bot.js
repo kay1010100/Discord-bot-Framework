@@ -1,8 +1,4 @@
 require("dotenv").config();
-const db = require('./database/database');
-const guildSettings = require('./models/guildSettings');
-const guildData = require('./models/guildData');
-const { config } = process.env;
 const { Client, Collection, GatewayIntentBits } = require("discord.js");
 const fs = require("fs");
 
