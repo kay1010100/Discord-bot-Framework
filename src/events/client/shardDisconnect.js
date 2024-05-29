@@ -1,4 +1,4 @@
-const { detailedLog } = require("../../utility");
+const { detailedLog } = require("../../utils/discord/discordUtils");
 
 module.exports = {
     name: 'shardDisconnect',

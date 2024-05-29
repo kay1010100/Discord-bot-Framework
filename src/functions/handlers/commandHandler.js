@@ -2,7 +2,7 @@ require('dotenv').config();
 const { REST } = require('@discordjs/rest');
 const { Routes } = require('discord-api-types/v9');
 const fs = require('fs');
-const { detailedLog } = require('../../utility');
+const { detailedLog } = require("../../utils/discord/discordUtils");
 
 module.exports = (client) => {
     client.commandHandler = async () => {

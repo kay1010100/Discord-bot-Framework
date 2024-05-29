@@ -1,4 +1,4 @@
-const { detailedLog } = require("../../utility");
+const { detailedLog } = require("../../utils/discord/discordUtils");
 require('dotenv').config();
 
 module.exports = {
